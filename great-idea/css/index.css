@@ -64,3 +64,146 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+header nav a{
+	color: grey;
+	font-size: 20px;
+	padding: 0 60px;
+	text-decoration: none;
+}
+
+.banner{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+#iod{
+	margin-right: 50px;
+	font-size: 75px;
+	text-align:center;
+}
+#iod a{
+	font-size: 20px;
+	font-style: normal;
+	text-decoration: none;
+	padding-right: 30px;
+	padding-left: 30px;
+	border: 1px solid black;
+	color: black;
+}
+.banner{
+	padding-bottom: 60px;
+	margin-bottom: 50px;
+	border-bottom: 3px solid black;
+}
+
+.mid1{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 5%;
+	font-size: 20px;
+}
+#feat, #about{
+	width: 30%;
+}
+.middle-img {
+	display: flex;
+	margin: 0 auto;
+	width: 60%;
+}
+.mid2{
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+	font-size: 20px;
+}
+#serv, #prod, #vis {
+	width: 20%;
+}
+
+footer{
+	border-top: 3px solid black;
+	padding-top: 60px;
+	margin-top: 50px;
+}
+#cont {
+	margin: 0 20%;
+	line-height: 1.5;
+	font-size: 20px;
+}
+address{
+	line-height: 1;
+}
+.copyright{
+	margin-top: 60px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 16px;
+}
+.services-header-img {
+	display: flex;
+	margin: 30px auto;
+	width: 60%;
+}
+.servTop{
+	border-bottom: 3px solid black;
+	margin: 50px auto;
+	font-size: 19px;
+	padding: 50px 20%;
+}
+.servTop h2{
+	font-size: 23px;
+
+}
+.servBox {
+	margin: 2%;
+	width: 28%;
+	padding: 20px;
+	background: silver;
+	border: 1px solid black;
+	font-size: 18px;
+}
+.servBox p{
+	margin-bottom: 20px;
+	line-height: 1.3;
+}
+.servBox a{
+	margin-bottom: 20px;
+	padding: 5px 30px;
+	font-size: 15px;
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 4px;
+	background: whitesmoke;
+	color: black;
+}
+.servMid1, .servMid2, .servMid3 {
+	display: flex;
+	justify-content: center;
+}
+.servBottomTxt{
+	width: 30%;
+	font-size: 18px;
+	line-height: 1.3;
+	margin-right: 9%;
+}
+.servBottom{
+	margin-top: 50px;
+	border-top: 3px solid black;
+	padding-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.servBottomTxt p{
+	padding-bottom: 20px;
+}
+.servBottomTxt ul {
+	list-style: square;
+	padding-left: 20px;
+	line-height: 1.5;
+}
